@@ -1,13 +1,9 @@
-
-
 "use client";
 import Image from "next/image";
 import { RightOutlined } from "@ant-design/icons";
 import DowntimePage from "../Downtime/page";
-import Banner from "../Banner/page";
-import "../fonts/page.css";
 
-export default function Lead() {
+export default function JumpStart() {
     return (
         <>
             {/* Lead Generation Section */}
@@ -15,7 +11,7 @@ export default function Lead() {
                 {/* Left Text Section */}
                 <div className="max-w-4xl text-white w-full md:w-[60%] font-fellix">
                     <h1 className="text-4xl font-bold">Leaders in SMS Lead Generation</h1>
-                    <p className="mt-4 text-lg text-[18px] font-normal font-fellix">
+                    <p className="mt-4 text-lg">
                         Proud to be recognized as a top-rated platform for real estate and marketing professionals.
                         Zeitblast empowers real estate professionals and marketers to generate more leads,
                         close more deals, and scale their businesses with confidence.
@@ -45,7 +41,7 @@ export default function Lead() {
                 <h1 className="text-center text-2xl md:text-3xl font-bold text-gray-800">
                     Smarter conversations, in a few minutes
                 </h1>
-                <p className="text-center text-[#777777] max-w-2xl text-[18px] font-normal font-fellix">
+                <p className="text-center text-gray-600 max-w-2xl">
                     User-friendly text marketing packed with powerful features.
                 </p>
 
@@ -55,7 +51,7 @@ export default function Lead() {
                     <div className="bg-white p-6 rounded-lg  flex flex-col items-center text-center">
                         <Image src="/card-image-1.png" alt="Icon" width={380} height={80} />
                         <h1 className="text-3xl font-bold text-gray-800 mt-4">Set up in seconds</h1>
-                        <p className="text-gray-400 text-xl mt-2 font-normal text-[18px] font-normal font-fellix">In just a few clicks, you’ll be ready to have meaningful conversations from anywhere in the world.</p>
+                        <p className="text-gray-400 text-xl mt-2">In just a few clicks, you’ll be ready to have meaningful conversations from anywhere in the world.</p>
                         <button className="mt-3 text-black font-bold ">
                             Explore all features
                             <RightOutlined />
@@ -66,7 +62,7 @@ export default function Lead() {
                     <div className="bg-white p-6 rounded-lg  flex flex-col items-center text-center">
                         <Image src="/card-image-2.png" alt="Icon" width={380} height={80} />
                         <h1 className="text-3xl font-bold text-gray-800 mt-4">Powerful Automation</h1>
-                        <p className="text-gray-600 mt-2 text-[18px] font-normal font-fellix">Boost productivity and efficiency with drip automated, smarter conversations that enhance your outreach.</p>
+                        <p className="text-gray-600 mt-2">Boost productivity and efficiency with drip automated, smarter conversations that enhance your outreach.</p>
                         <button className="mt-3 text-black font-bold ">
                             See our automation
                             <RightOutlined />
@@ -77,7 +73,7 @@ export default function Lead() {
                     <div className="bg-white p-6 rounded-lg flex flex-col items-center text-center">
                         <Image src="/card-image-3.png" alt="Icon" width={380} height={80} />
                         <h1 className="text-3xl font-bold text-gray-800 mt-4">Real-time Analytics</h1>
-                        <p className="text-gray-600 mt-2 text-[18px] font-normal font-fellix">Goodby guesswork. Hello, better decisions. Monitor metrics in real-time to start making measurable improvements.</p>
+                        <p className="text-gray-600 mt-2">Goodby guesswork. Hello, better decisions. Monitor metrics in real-time to start making measurable improvements.</p>
                         <button className="mt-3 text-black font-bold ">
                             Monitor key metrics
                             <RightOutlined />
@@ -88,7 +84,7 @@ export default function Lead() {
                     <div className="bg-white p-6 rounded-lg  flex flex-col items-center text-center">
                         <Image src="/card-image-4.png" alt="Icon" width={380} height={80} />
                         <h1 className="text-3xl font-bold text-gray-800 mt-4">Seamless Integration</h1>
-                        <p className="text-gray-600 mt-2 text-[18px] font-normal font-fellix">Whether you use Zeitblast as your primary CRM or integrate it with others using our one-click Push to CRM feature, experience advanced CRM capabilities and seamless integration.</p>
+                        <p className="text-gray-600 mt-2">Whether you use Zeitblast as your primary CRM or integrate it with others using our one-click Push to CRM feature, experience advanced CRM capabilities and seamless integration.</p>
                         <button className="mt-3 text-black font-bold ">
                             Explore ZeitBlast AI
                             <RightOutlined />
@@ -97,9 +93,7 @@ export default function Lead() {
                 </div>
 
                 <DowntimePage />
-                <Banner />
             </div>
-            
         </>
     );
 }

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Lead from "../Lead/page";
+import "../fonts/page.css"
 
 export default function Hero() {
     return (
@@ -19,10 +20,10 @@ export default function Hero() {
                         <input
                             type="email"
                             placeholder="Work Email"
-                            className="w-[65%] px-6 py-4 outline-none text-gray-700 text-lg"
+                            className="w-full px-6 py-4 outline-none text-gray-700 text-lg"
                         />
-                        <button className="bg-[#06ab77] w-[35%]  text-white py-4  px-2 md:px-16 text-lg rounded-full hover:bg-[#1e9b50] hover:text-black transition-colors duration-200 font-bold">
-                            Request Demo
+                         <button className=" text-white w-40 md:w-48 py-3 md:py-4 rounded-full bg-[#06ab77] hover:text-white transition duration-200 font-bold">
+                            Get Started
                         </button>
                     </div>
                 </div>

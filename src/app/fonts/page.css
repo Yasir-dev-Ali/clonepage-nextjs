@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Fellix';
+    src: url('/fonts/fellix.woff2') format('woff2'),
+         url('/fonts/fellix.woff') format('woff'),
+         url('/fonts/fellix.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'Fellix', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #333;
+    
+}
