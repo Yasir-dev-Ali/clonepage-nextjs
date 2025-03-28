@@ -55,7 +55,7 @@ export default function Lead() {
                     <div className="bg-white p-6 rounded-lg  flex flex-col items-center text-center">
                         <Image src="/card-image-1.png" alt="Icon" width={380} height={80} />
                         <h1 className="text-3xl font-bold text-gray-800 mt-4">Set up in seconds</h1>
-                        <p className="text-gray-400 text-xl mt-2 font-normal text-[18px] font-normal font-fellix">In just a few clicks, you’ll be ready to have meaningful conversations from anywhere in the world.</p>
+                        <p className="text-[#777777] text-xl mt-2 font-normal text-[18px] font-normal font-fellix">In just a few clicks, you’ll be ready to have meaningful conversations from anywhere in the world.</p>
                         <button className="mt-3 text-black font-bold ">
                             Explore all features
                             <RightOutlined />
@@ -66,7 +66,7 @@ export default function Lead() {
                     <div className="bg-white p-6 rounded-lg  flex flex-col items-center text-center">
                         <Image src="/card-image-2.png" alt="Icon" width={380} height={80} />
                         <h1 className="text-3xl font-bold text-gray-800 mt-4">Powerful Automation</h1>
-                        <p className="text-gray-600 mt-2 text-[18px] font-normal font-fellix">Boost productivity and efficiency with drip automated, smarter conversations that enhance your outreach.</p>
+                        <p className="text-[#777777] mt-2 text-[18px] font-normal font-fellix">Boost productivity and efficiency with drip automated, smarter conversations that enhance your outreach.</p>
                         <button className="mt-3 text-black font-bold ">
                             See our automation
                             <RightOutlined />
@@ -77,7 +77,7 @@ export default function Lead() {
                     <div className="bg-white p-6 rounded-lg flex flex-col items-center text-center">
                         <Image src="/card-image-3.png" alt="Icon" width={380} height={80} />
                         <h1 className="text-3xl font-bold text-gray-800 mt-4">Real-time Analytics</h1>
-                        <p className="text-gray-600 mt-2 text-[18px] font-normal font-fellix">Goodby guesswork. Hello, better decisions. Monitor metrics in real-time to start making measurable improvements.</p>
+                        <p className="text-[#777777] mt-2 text-[18px] font-normal font-fellix">Goodby guesswork. Hello, better decisions. Monitor metrics in real-time to start making measurable improvements.</p>
                         <button className="mt-3 text-black font-bold ">
                             Monitor key metrics
                             <RightOutlined />
@@ -88,7 +88,7 @@ export default function Lead() {
                     <div className="bg-white p-6 rounded-lg  flex flex-col items-center text-center">
                         <Image src="/card-image-4.png" alt="Icon" width={380} height={80} />
                         <h1 className="text-3xl font-bold text-gray-800 mt-4">Seamless Integration</h1>
-                        <p className="text-gray-600 mt-2 text-[18px] font-normal font-fellix">Whether you use Zeitblast as your primary CRM or integrate it with others using our one-click Push to CRM feature, experience advanced CRM capabilities and seamless integration.</p>
+                        <p className="text-[#777777] mt-2 text-[18px] font-normal font-fellix">Whether you use Zeitblast as your primary CRM or integrate it with others using our one-click Push to CRM feature, experience advanced CRM capabilities and seamless integration.</p>
                         <button className="mt-3 text-black font-bold ">
                             Explore ZeitBlast AI
                             <RightOutlined />

@@ -1,5 +1,6 @@
 import { ArrowRightOutlined, CheckOutlined } from "@ant-design/icons";
 import Frequently from "../Frequently/page";
+import "../fonts/page.css";
 
 export default function PlanPage() {
     return (
