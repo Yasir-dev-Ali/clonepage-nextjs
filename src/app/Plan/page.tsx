@@ -15,7 +15,7 @@ export default function PlanPage() {
                 <div className="bg-white p-8 rounded-lg shadow-lg w-full">
                     {/* Plan Title */}
                     <h1 className="text-2xl font-bold text-[#06ab77] flex items-center gap-4">
-                        I'm Serious 
+                    {`I'm Serious`}
                         <span className="border border-gray-300 px-3 py-1 text-sm rounded-lg bg-gray-100">
                             Most Popular
                         </span>
@@ -23,7 +23,7 @@ export default function PlanPage() {
                     
                     {/* Plan Description */}
                     <p className="text-lg mt-4 text-gray-600">
-                        Commit to success with our 'I'm Serious' Plan, packed with advanced tools 
+                        Commit to success with our Im Serious Plan, packed with advanced tools 
                         and dedicated support for real estate professionals ready to get started.
                     </p>
                     
@@ -81,7 +81,7 @@ export default function PlanPage() {
                     
                     {/* Plan Description */}
                     <p className="text-lg mt-4 text-gray-600">
-                        Commit to success with our 'I'm Serious' Plan, packed with advanced tools 
+                        Commit to success with our Im Serious Plan, packed with advanced tools 
                         and dedicated support for real estate professionals ready to get started.
                     </p>
                     
@@ -140,7 +140,7 @@ export default function PlanPage() {
                     
                     {/* Plan Description */}
                     <p className="text-lg mt-4 text-white">
-                    Ready to dominate the market? The 'Market Dominator' Plan is designed for top-tier professionals with a full-scale operation, offering wide resources.
+                    Ready to dominate the market? The Market Dominator Plan is designed for top-tier professionals with a full-scale operation, offering wide resources.
                     </p>
                     
                     {/* Price */}

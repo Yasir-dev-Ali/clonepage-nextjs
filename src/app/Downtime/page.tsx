@@ -15,7 +15,7 @@ export default function DowntimePage() {
                     <Image src="/reliable-card-1.png" alt="Reliability Icon" width={480} height={120} />
                     <h2 className="text-3xl font-bold text-gray-800 mt-4 ">Unmatched Reliability</h2>
                     <p className="mt-2 text-gray-600 text-[18px] font-normal font-fellix">
-                        We ensure you never miss a lead with Zeitblast's unparalleled reliability. Experience zero downtime and maintain a steady flow of leads without interruption.
+                        We ensure you never miss a lead with Zeitblasts unparalleled reliability. Experience zero downtime and maintain a steady flow of leads without interruption.
                     </p>
                     <button className="mt-4 bg-[#06ab77] w-[150px] hover:text-black text-white font-bold py-2 px-6 rounded-full transition-all duration-200">
                         Learn More
